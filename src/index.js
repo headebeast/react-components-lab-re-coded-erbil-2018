@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
 
 const BUTCHER_PRODUCTS = [
@@ -9,7 +9,7 @@ const BUTCHER_PRODUCTS = [
 ]
 
 // Define these exported classes
-export default class OlderCoaster extends Component {
+export class OlderCoaster extends React.Component {
   // your code here
     render() {
       return (
@@ -25,7 +25,7 @@ export default class OlderCoaster extends Component {
   }
 }
 
-export default class InFrontOfYou extends Component {
+export class InFrontOfYou extends React.Component {
   // your code here
   render(){
     return(
@@ -36,7 +36,7 @@ export default class InFrontOfYou extends Component {
 )
   }
 }
-export class ButcherShop extends Component {
+export class ButcherShop extends React.Component {
   // your code here
   render(){
     return(
@@ -52,7 +52,7 @@ export class ButcherShop extends Component {
       )
   }
 }
-export class App extends Component{
+export class App extends React.Component{
   render(){
     return(
       <div className="App">
